@@ -13,35 +13,22 @@ const Navbar = () => {
         <Link href="/" className="transition">
           Home
         </Link>
-        <a href={"#service"} className="relative group">
-          <button className=" transition">Services</button>
-          <div className="absolute hidden group-hover:block shadow-lg mt-2 rounded-md p-2">
-            <Link href="#software" className="block px-4 py-2 ">
-              Software Development
-            </Link>
-            <Link href="#digital" className="block px-4 py-2 ">
-              Digital Marketing
-            </Link>
-            <Link href="#recruitment" className="block px-4 py-2 ">
-              Recruitment
-            </Link>
-            <Link href="#webdev" className="block px-4 py-2 ">
-              Website Development
-            </Link>
-          </div>
-        </a>
-
-        <Link href="#about" className="transition">
-          About Us
+        <Link href={"#service"} className="relative group">
+          Services
         </Link>
 
         <Link href="#blog" className=" transition">
           Blog
         </Link>
-        <Link href="#careers" className=" transition">
+
+        <Link href="#about" className="transition">
+          About Us
+        </Link>
+
+        <Link href="#career" className=" transition">
           Careers
         </Link>
-        <Link href="#contact" className=" transition">
+        <Link href="#career" className=" transition">
           Contact
         </Link>
       </nav>

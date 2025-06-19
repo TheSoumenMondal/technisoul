@@ -39,7 +39,7 @@ const solutions = [
 
 const ThirdPage = () => {
   return (
-    <div className="w-full min-h-screen py-20 px-4 md:px-12">
+    <div id="blog" className="w-full min-h-screen py-20 px-4 md:px-12">
       <div className="text-center mb-16">
         <SparklesText className="text-4xl font-bold tracking-tight">
           What We Can Build For You
