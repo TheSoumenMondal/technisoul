@@ -3,7 +3,7 @@ import { Card, CardHeader, CardContent, CardTitle } from "@/components/ui/card";
 
 const AboutPage = () => {
   return (
-    <div className="w-full min-h-screen py-20 px-4 md:px-12">
+    <div id="aboutus" className="w-full min-h-screen py-20 px-4 md:px-12">
       <div className="text-center mb-16">
         <h1 className="text-4xl font-bold tracking-tight ">
           About Technisoul

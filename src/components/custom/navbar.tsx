@@ -13,10 +13,7 @@ const Navbar = () => {
         <Link href="/" className="transition">
           Home
         </Link>
-        <Link href="#about" className="transition">
-          About Us
-        </Link>
-        <div className="relative group">
+        <Link href={"#service"} className="relative group">
           <button className=" transition">Services</button>
           <div className="absolute hidden group-hover:block shadow-lg mt-2 rounded-md p-2">
             <Link href="#software" className="block px-4 py-2 ">
@@ -32,7 +29,12 @@ const Navbar = () => {
               Website Development
             </Link>
           </div>
-        </div>
+        </Link>
+
+        <Link href="#about" className="transition">
+          About Us
+        </Link>
+
         <Link href="#blog" className=" transition">
           Blog
         </Link>

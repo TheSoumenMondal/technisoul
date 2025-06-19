@@ -67,7 +67,10 @@ const items = [
 
 const SecondPage = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center px-4 py-16">
+    <div
+      id="service"
+      className="w-full min-h-screen flex flex-col items-center px-4 py-16"
+    >
       <div className="text-center space-y-2 mb-12">
         <h2 className="text-4xl font-bold tracking-tight text-black dark:text-white">
           Our Services
