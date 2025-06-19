@@ -3,7 +3,7 @@
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import { useEffect, useState } from "react";
 
-export function CareersPage() {
+export default function CareersPage() {
   const testimonials = [
     {
       quote:
@@ -48,7 +48,10 @@ export function CareersPage() {
   }, []);
 
   return (
-    <div id="career" className="w-full min-h-screen px-6 py-16 flex flex-col items-center justify-center">
+    <div
+      id="career"
+      className="w-full min-h-screen px-6 py-16 flex flex-col items-center justify-center"
+    >
       <div className="max-w-4xl text-center space-y-2">
         <h1 className="text-4xl md:text-5xl font-bold ">We're Hiring!</h1>
         <p className="text-lg ">

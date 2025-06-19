@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         <div className="w-full flex-col flex items-center">
           <Navbar />
-          <main>{children}</main>
+          <main className="w-full">{children}</main>
         </div>
       </body>
     </html>
