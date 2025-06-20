@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const slides = [
   {
-    image: "/andde.jpg",
+    image: "/one.jpg",
     heading: "Your One-Stop Partner for Digital Solutions",
     description: "Empowering startups with cutting-edge apps and seamless UI/UX.",
   },
@@ -16,7 +16,7 @@ const slides = [
     description: "We connect talent with opportunity across India’s tech landscape.",
   },
   {
-    image: "/seo.jpg",
+    image: "/two.png",
     heading: "Boost Your Online Presence",
     description: "SEO-optimized websites and campaigns that drive real traffic.",
   },
