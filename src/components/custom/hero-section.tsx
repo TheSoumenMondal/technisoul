@@ -13,7 +13,7 @@ const slides = [
   {
     image: "/se.jpg",
     heading: "IT Recruitment & Staffing, Simplified",
-    description: "We connect talent with opportunity across India’s tech landscape.",
+    description: "We connect talent with opportunity across India's tech landscape.",
   },
   {
     image: "/two.png",
