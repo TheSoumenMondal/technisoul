@@ -33,7 +33,7 @@ const items = [
     icon: <IconChartLine className="h-4 w-4 text-blue-600" />,
   },
   {
-    title: "IT Recruitment",
+    title: "IT & NON-IT Recruitment",
     description: "Find and hire top tech talent for your organization.",
     header: <Skeleton src="/itr.jpg" />,
     icon: <IconUsers className="h-4 w-4 text-blue-600" />,
